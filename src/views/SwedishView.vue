@@ -25,15 +25,15 @@ import { RouterLink } from 'vue-router';
     </div>
 
     <div class="max-w-xl mx-auto p-4">
-      <h1 class="font-[Heavy] text-2xl text-ri-dark-green my-2">Välkommen</h1>
+      <h1 class="font-[Heavy] text-2xl text-ri-green my-2">Välkommen</h1>
       <p>Varmt välkommen att fira vårat bröllop! Vi är så glada att du vill vara med och dela denna speciella dag med oss. Mer information kommer fyllas på här så småningom. Finns det några funderingar så får ni gärna kontakta oss.</p>
 
-      <h1 class="font-[Heavy] text-2xl text-ri-dark-green mb-2 mt-8">Vigseln</h1>
+      <h1 class="font-[Heavy] text-2xl text-ri-green mb-2 mt-8">Vigseln</h1>
       <p>Vigseln kommer vara i Elimkyrkan klockan 12.</p>
       <p>Entré från Fredsgatan 1, Sundsvall.</p>
 
 
-      <h1 class="font-[Heavy] text-2xl text-ri-dark-green mb-2 mt-8">Festen</h1>
+      <h1 class="font-[Heavy] text-2xl text-ri-green mb-2 mt-8">Festen</h1>
       <p>Senare fortsätter vi med en fest i Hagakyrkan klockan 16. Middag kommer serveras senare under kvällen.</p>
       <p>Hagavägen 21, Sundsvall.</p>
 
