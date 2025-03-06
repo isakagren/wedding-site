@@ -25,14 +25,14 @@ import { RouterLink } from 'vue-router';
     </div>
 
     <div class="max-w-xl mx-auto p-4">
-      <h1 class="font-[Heavy] text-2xl text-ri-dark-green my-2">Welcome</h1>
+      <h1 class="font-[Heavy] text-2xl text-ri-green my-2">Welcome</h1>
       <p>Warm welcome to our wedding! We are so happy that you want to join us and share this special day with us. More information will be added here in due time. If you have any questions, please feel free to contact us.</p>
 
-      <h1 class="font-[Heavy] text-2xl text-ri-dark-green mb-2 mt-8">The Ceremony</h1>
+      <h1 class="font-[Heavy] text-2xl text-ri-green mb-2 mt-8">The Ceremony</h1>
       <p>The ceremony will take place at Elimkyrkan at 12 PM.</p>
       <p>Entrance from Fredsgatan 1, Sundsvall.</p>
 
-      <h1 class="font-[Heavy] text-2xl text-ri-dark-green mb-2 mt-8">The Reception</h1>
+      <h1 class="font-[Heavy] text-2xl text-ri-green mb-2 mt-8">The Reception</h1>
       <p>Later, we will continue with a reception at Hagakyrkan at 4 PM. Dinner will be served later in the evening.</p>
       <p>Hagavägen 21, Sundsvall.</p>
 
