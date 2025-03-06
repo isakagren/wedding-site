@@ -1,15 +1,42 @@
-<template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
-</template>
+<script setup lang="ts">
+import { RouterLink } from 'vue-router';
+</script>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
+<template>
+  <main class="font-[Book]">
+    <div class="">
+      <nav class="flex flex-row container mx-auto p-4">
+        <ul class="grow flex flex-row">
+          <li class="mr-3"></li>
+        </ul>
+        <RouterLink to="/"><img src="@/assets/se-flag.svg" alt="Swedish flag"></RouterLink>
+      </nav>
+    </div>
+
+    <div class="h-lvh">
+      <img src="@/assets/images/left-forest.png" class="absolute bottom-0 left-0 lg:max-w-7/12 -z-20 max-w-10/12 sm:max-w-9/12">
+      <img src="@/assets/images/right-forest.png" class="absolute bottom-0 right-0 lg:max-w-7/12 -z-10 max-w-10/12 sm:max-w-9/12">
+
+      <div class="container mx-auto p-4 text-center">
+        <h1 class="text-ri-dark-green font-[Book] text-2xl">Welcome to celebrate our wedding together with us.</h1>
+        <img src="@/assets/logos/Ri Logo - dark green.svg" class="mx-auto mt-4 max-w-9/12"/>
+        <a class="bg-ri-light-green text-ri-dark-green px-6 py-4 rounded-full font-[Heavy] mt-4 inline-block">RSVP Here</a>
+      </div>
+    </div>
+
+    <div class="max-w-xl mx-auto p-4">
+      <h1 class="font-[Heavy] text-2xl text-ri-dark-green my-2">Welcome</h1>
+      <p>Warm welcome to our wedding! We are so happy that you want to join us and share this special day with us. More information will be added here in due time. If you have any questions, please feel free to contact us.</p>
+
+      <h1 class="font-[Heavy] text-2xl text-ri-dark-green mb-2 mt-8">The Ceremony</h1>
+      <p>The ceremony will take place at Elimkyrkan at 12 PM.</p>
+      <p>Entrance from Fredsgatan 1, Sundsvall.</p>
+
+      <h1 class="font-[Heavy] text-2xl text-ri-dark-green mb-2 mt-8">The Reception</h1>
+      <p>Later, we will continue with a reception at Hagakyrkan at 4 PM. Dinner will be served later in the evening.</p>
+      <p>Hagavägen 21, Sundsvall.</p>
+
+    </div>
+
+  </main>
+</template>

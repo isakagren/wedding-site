@@ -14,11 +14,11 @@ import { RouterLink } from 'vue-router';
     </div>
 
     <div class="h-lvh">
-      <img src="@/assets/images/left-forest.png" class="absolute bottom-0 left-0 max-w-7/12 -z-20">
-      <img src="@/assets/images/right-forest.png" class="absolute bottom-0 right-0 max-w-7/12 -z-10">
+      <img src="@/assets/images/left-forest.png" class="absolute bottom-0 left-0 lg:max-w-7/12 -z-20 max-w-10/12 sm:max-w-9/12">
+      <img src="@/assets/images/right-forest.png" class="absolute bottom-0 right-0 lg:max-w-7/12 -z-10 max-w-10/12 sm:max-w-9/12">
 
       <div class="container mx-auto p-4 text-center">
-        <h1 class="text-ri-dark-green font-[Book] text-2xl">Välkommen att fira vårat bröllop tillsammans med oss.</h1>
+        <h1 class="text-ri-dark-green font-[Book] text-2xl">Välkommen att fira vårt bröllop tillsammans med oss.</h1>
         <img src="@/assets/logos/Ri Logo - dark green.svg" class="mx-auto mt-4 max-w-9/12"/>
         <a class="bg-ri-light-green text-ri-dark-green px-6 py-4 rounded-full font-[Heavy] mt-4 inline-block">Svara på inbjudan</a>
       </div>
