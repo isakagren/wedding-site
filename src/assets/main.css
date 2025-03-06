@@ -1,35 +1,20 @@
-@import './base.css';
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+@font-face{
+    font-family: "Book";
+    src:local("Garet-Book"),
+    url('@/assets/fonts/Garet/Garet-Book.ttf') 
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+@font-face{
+    font-family: "Heavy";
+    src:local("Garet-Heavy"),
+    url('@/assets/fonts/Garet/Garet-Heavy.ttf') 
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+@theme {
+    --color-ri-dark-green: #2d4637;
+    --color-ri-light-green: #9db99d;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
-}
+@import "tailwindcss";
