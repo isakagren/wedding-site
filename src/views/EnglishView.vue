@@ -26,7 +26,7 @@ import { RouterLink } from 'vue-router';
 
     <div class="max-w-xl mx-auto p-4" style="margin-top: -4em">
       <h1 class="font-[Heavy] text-2xl text-ri-green my-2">Welcome</h1>
-      <p>Warm welcome to our wedding! We are so happy that you want to join us and share this special day with us. More information will be added here in due time. If you have any questions, please feel free to contact us.</p>
+      <p>Warm welcome to our wedding! We are so happy that you want to join us and share this special day with us. If you have any questions, please feel free to contact us.</p>
       <br>
       <p><em>We're updating the website as we go, so check back later for the latest updates. We can't wait to share more with you soon!</em></p>
 

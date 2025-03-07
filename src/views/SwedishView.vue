@@ -26,7 +26,7 @@ import { RouterLink } from 'vue-router';
 
     <div class="max-w-xl mx-auto p-4" style="margin-top: -4em">
       <h1 class="font-[Heavy] text-2xl text-ri-green my-2">Välkommen</h1>
-      <p>Varmt välkommen att fira vårat bröllop! Vi är så glada att du vill vara med och dela denna speciella dag med oss. Mer information kommer fyllas på här så småningom. Finns det några funderingar så får ni gärna kontakta oss.</p>
+      <p>Varmt välkommen att fira vårat bröllop! Vi är så glada att du vill vara med och dela denna speciella dag med oss. Finns det några funderingar så får ni gärna kontakta oss.</p>
       <br>
       <p><em>Vi uppdaterar hemsidan allt eftersom, så kika gärna in igen lite senare för att se de senaste nyheterna. Vi ser fram emot att dela mer med er snart!</em></p>
 
