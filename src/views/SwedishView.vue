@@ -20,7 +20,7 @@ import { RouterLink } from 'vue-router';
       <div class="container mx-auto p-4 text-center">
         <h1 class="text-ri-dark-green font-[Book] text-2xl">Välkommen att fira vårt bröllop tillsammans med oss.</h1>
         <img src="@/assets/logos/Ri Logo - dark green.svg" class="mx-auto mt-4 max-w-9/12"/>
-        <a class="bg-ri-light-green text-ri-dark-green px-6 py-4 rounded-full font-[Heavy] mt-4 inline-block">Svara på inbjudan</a>
+        <a class="bg-ri-light-green text-ri-dark-green px-6 py-4 rounded-full font-[Heavy] mt-4 inline-block" href="https://forms.gle/wtQT6D1VGi83dsRe8">Svara på inbjudan</a>
       </div>
     </div>
 
